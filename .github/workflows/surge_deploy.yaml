@@ -25,4 +25,4 @@ jobs:
         run: npm install -g surge
 
       - name: Run surge
-        run: surge ./build bootcamp_setup_toobamalaika.surge.sh --token ${{secrets.SURGETOKENNUMBER}}
+        run: surge ./build bootcamp_react_toobamalaika.surge.sh --token ${{secrets.SURGETOKENNUMBER}}
